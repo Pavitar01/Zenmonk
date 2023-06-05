@@ -1,19 +1,11 @@
-let string="helloo";
-function reverse(){
-s=0;
-e=string.length-1;
-
-while(s<e){
-
-    temp=string[s];
-    string[s]=string[e];
-    string[e]=string[s];
-    
-console.log(string)
-s++;
-e--;
+let rev=0;
+const reverse=(n)=>{
+while(n!=0){
+    r=n%10;
+    rev=(rev*10)+r;
+    n=Math.floor(n/10);
 }
-console.log(string)
-
+console.log(rev)
 }
-reverse();
+
+reverse(743);
