@@ -1,5 +1,4 @@
 const hello=(a)=>{
-    console.log("hello");
 fib(a)
 console.log()}
 hello(10);
